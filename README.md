@@ -8,3 +8,7 @@ UPU and NNPU (in unbiased.py) are inspired by https://arxiv.org/pdf/2103.04683.p
 
 
 If you spot mistakes in the implementations and/or better ways to implement them, please don't hesitate to open an issue and report it!
+
+## Usage
+
+For usage, please see the testfile ```test_losses.py```. Please note that the y_true vector should be binary but the y_pred vector does not have to. This means that you can directly feed your NN ouput (logits) into the loss, no need to call softmax or logistic function beforehand!
