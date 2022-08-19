@@ -1,6 +1,6 @@
 import torch
 
-from coregenes.losses.loss_utils import deterministic_neural_sort, sinkhorn_scaling, stochastic_neural_sort, dcg
+from speos.losses.loss_utils import deterministic_neural_sort, sinkhorn_scaling, stochastic_neural_sort, dcg
 
 
 def neuralNDCGLoss(y_pred, y_true, padded_value_indicator=-1, temperature=1., powered_relevancies=True, k=None,
